@@ -74,12 +74,6 @@ p {
   align-items: center;
 }
 
-@media only screen and (max-width: 1000px){
-  .project-container{
-    display: flex;
-    flex-wrap: wrap;
-  }
-}
 .top-text {
   margin-left: 40px;
   margin-bottom: 100px
@@ -134,8 +128,8 @@ p {
 }
 
 .headshot {
-  width: 300px;
-  border-radius: 150px;
+  width: 450px;
+  border-radius: 225px;
 }
 
 .project-image {
@@ -145,13 +139,23 @@ p {
   border-radius: 125px;
 }
 
-.headshot-container {
+.headshot-container{
   display: flex;
   align-items: center;
   margin:auto;
   height: 300px;
   width: 300px;
 }
+
+#topHeadshot{
+  height: 500px;
+  width: 500px;
+}
+
+#middleHeadshot {
+  display: none;
+}
+
 
 .project-card {
   width: 500px;
@@ -232,7 +236,26 @@ a {
     flex-direction: column-reverse;
     justify-content: center;
     word-wrap: normal;
+    padding: 20px 20px 0px 20px;
     
+  }
+
+  .headshot{
+    width: 200px;
+  } 
+
+  .headshot-container {
+    width: 200px;
+    height: 200px;
+  }
+
+  #middleHeadshot {
+    display: block;
+  }
+
+  #topHeadshot
+  {
+    display: none;
   }
 
   .information p{
@@ -240,5 +263,10 @@ a {
     word-wrap: normal;
     align-items: center;
     
+  }
+
+  .project-container{
+    display: flex;
+    flex-wrap: wrap;
   }
 }
