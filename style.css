@@ -225,9 +225,10 @@ a {
 
   .sub-section{
     flex-direction: column-reverse;
+    word-wrap:normal;
   }
 
   .information{
-    width: 100vw;
+    width: 90vw;
   }
 }
