@@ -264,6 +264,10 @@ a {
     align-items: center;
     
   }
+  .subtext {
+    font-size: 14px;
+    font-weight: 300;
+  }
 
   .project-container{
     display: flex;
